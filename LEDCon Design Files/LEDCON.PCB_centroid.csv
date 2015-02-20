@@ -1,0 +1,33 @@
+Screaming Circuits SMD component position file.
+Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
+
+Centroid Data for pc board: "LEDCON.PCB.brd" as of: 2/19/2015 8:02:00 PM
+Measurements are in inches. Comma delimited
+Only surface mount components included
+
+RefDes,Layer,LocationX,LocationY,Rotation
+IC1,Top,-0.709,-0.484,180
+U$2,Top,-1.378,0.000,90
+U$4,Bottom,-0.928,0.394,270
+U$5,Top,1.378,0.000,0
+U$6,Top,0.055,0.141,270
+U$7,Bottom,-0.858,-0.260,180
+U$8,Bottom,0.776,-0.094,90
+U$10,Top,1.063,0.516,0
+U$11,Top,0.992,0.421,0
+U$12,Top,0.933,0.315,0
+U$13,Top,-0.657,-0.157,180
+U$14,Top,1.472,-0.902,0
+U$15,Bottom,0.485,0.045,0
+U$16,Bottom,0.485,-0.055,0
+U$17,Bottom,0.485,-0.143,0
+U$18,Top,-1.480,0.898,0
+U$20,Top,0.433,-0.024,270
+U$21,Top,0.398,0.146,90
+U$22,Top,-0.378,0.157,270
+U$23,Top,0.209,0.307,180
+U$24,Top,-0.657,-0.252,180
+U$25,Top,0.650,0.917,0
+U$26,Bottom,0.650,0.917,0
+U$27,Bottom,-1.480,0.898,0
+U$28,Bottom,1.472,-0.902,0

@@ -1,0 +1,22 @@
+LEDCON.PCB.v1.0
+
+- Material: FR4
+- Thickness: 0.062"
+- All vias tented (included in soldermask layers)
+- Solder mask: BLACK
+- Silk screen: WHITE
+- Hole diameters applicable after plating
+- UL796 Flammability Rating 94V-0. Fabricator's UL Logo shall be placed on bottom side of board
+- Date of manufacture and lot code shall be placed on bottom side of board
+- Stackup: 
+  Top Paste         - LEDCON.PCB.SPT
+  Top Silkscreen    - LEDCON.PCB.SST 
+  Top Soldermask    - LEDCON.PCB.SMT
+  Top Copper        - LEDCON.PCB.LAY1
+  Bottom Copper     - LEDCON.PCB.LAY4
+  Bottom Soldermask - LEDCON.PCB.SMB
+  Bottom Silkscreen - LEDCON.PCB.SSB
+  Bottom Paste      - LEDCON.PCB.SPB
+  Excellon Drill    - LEDCON.PCB.drd
+  Board Outline     - LEDCON.PCB.FAB
+  Component centroid- LEDCON.PCB_centroid.csv

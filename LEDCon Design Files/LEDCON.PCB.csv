@@ -1,0 +1,18 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"MFGN";"MFGP";"NOTES";
+"1";"";"2X10JTAG";"2X10JTAG";"U$19";"";"CNC Tech";"3220-20-0100-00";"";
+"1";"";"BARREL_CUI_PJ-002A";"BARREL_CUI_PJ-002A";"U$3";"";"CUI";"PJ-002A";"";
+"1";"";"DF12_F";"DF12_F";"U$4";"";"Hirose";"DF12(3.0)-40DP-0.5V(86)";"";
+"6";"";"FIDUCIAL";"FIDUCIAL_1MM";"U$14, U$18, U$25, U$26, U$27, U$28";"For use by pick and place machines to calibrate the vision/machine, 1mm";"";"";"DNP";
+"1";"";"MATE-N-LOK_643230-1";"MATE-N-LOK_643230-1";"U$1";"";"TE Connectivity";"643230-1";"";
+"1";"";"NCP1117ST33T3G_1";"SOT223";"IC1";"VOLTAGE REGULATOR";"OnSemi";"NCP1117ST33T3G";"";
+"1";"";"RA_BUTTON";"RA_BUTTON";"U$9";"";"TE Connectivity";"2-1825027-0";"";
+"1";"";"RGLBED";"RGBLED";"U$5";"";"Cree, Inc.";"CLV1A-FKB-CK1N1G1BB7R4S3";"";
+"1";"";"SWITCH-TACTILE";"ESWITCH-TL3301PF";"U$2";"";"E-Switch";"TL3301PF160QG";"";
+"1";"";"TXB0104";"PW_R-PDSO-G14";"U$6";"";"Texas Instruments";"TXB0104PWR";"";
+"1";"";"WS2801";"SO14";"U$8";"";"WorldSemi";"WS2801";"";
+"3";"0.1uF";"RF-C0805";"C0805";"U$10, U$22, U$23";"RF capacitor pads for FSL reference design";"TDK";"C2012X5R1H104K085AA";"";
+"1";"10k";"RF-R0805";"RF-C0805";"U$7";"RF resistor pads for FSL reference design";"Vishay Dale";"CRCW080510K0FKEA";"";
+"3";"10uF";"RF-C0805";"C0805";"U$12, U$13, U$24";"RF capacitor pads for FSL reference design";"Murata";"GRM219R61E106KA12D";"";
+"1";"1uF";"RF-C0805";"C0805";"U$11";"RF capacitor pads for FSL reference design";"TDK";"C2012X5R1E105K125AA";"";
+"3";"24Ohm";"RF-R0805";"RF-C0805";"U$15, U$16, U$17";"RF resistor pads for FSL reference design";"Vishay Dale";"CRCW080524R0FKEA";"";
+"2";"68k";"RF-R0805";"RF-C0805";"U$20, U$21";"RF resistor pads for FSL reference design";"Vishay Dale";"CRCW080568K0FKEA";"";
