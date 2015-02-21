@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.000000123031" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0999999999" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.000000123031" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2263,7 +2263,7 @@
 <rectangle x1="2.047809375" y1="19.8848375" x2="2.741228125" y2="19.9026125" layer="21" rot="R180"/>
 <rectangle x1="2.136709375" y1="19.902615625" x2="2.741228125" y2="19.920396875" layer="21" rot="R180"/>
 <rectangle x1="2.243390625" y1="19.920396875" x2="2.598990625" y2="19.938171875" layer="21" rot="R180"/>
-<text x="-16.26518125" y="20.362359375" size="1.016" layer="21" font="vector" ratio="15" rot="SR0">R.S 2/19/15</text>
+<text x="-16.26518125" y="20.362359375" size="1.016" layer="21" font="vector" ratio="15" rot="SR0">R.S 2/20/15</text>
 </plain>
 <libraries>
 <library name="KW2">
@@ -2276,6 +2276,7 @@
 <wire x1="-10.16" y1="15.37" x2="29.21" y2="15.37" width="0.127" layer="21"/>
 <hole x="-7.37" y="2.54" drill="3.81"/>
 <hole x="26.42" y="2.54" drill="3.81"/>
+<text x="5.08" y="6.35" size="1.27" layer="21">&gt;NAME</text>
 </package>
 <package name="BARREL_CUI_PJ-002A">
 <pad name="P$2" x="6" y="0" drill="3.1" rot="R90"/>
@@ -2413,7 +2414,7 @@
 <rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
 <rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
 </package>
-<package name="RGBLED">
+<package name="PLCC4_SMALL">
 <smd name="P$1" x="1.4" y="-0.725" dx="1.2" dy="0.9" layer="1"/>
 <smd name="P$4" x="-1.4" y="-0.725" dx="1.2" dy="0.9" layer="1"/>
 <smd name="P$3" x="-1.4" y="0.725" dx="1.2" dy="0.9" layer="1"/>
@@ -2443,6 +2444,7 @@
 <smd name="4" x="4.61" y="-2.25" dx="2.5" dy="1.3" layer="1"/>
 <smd name="3" x="-4.61" y="-2.25" dx="2.5" dy="1.3" layer="1"/>
 <text x="-3.6" y="3.9" size="1.6764" layer="25">&gt;Name</text>
+<circle x="-4.96650625" y="4.048459375" radius="0.508" width="0" layer="21"/>
 </package>
 <package name="RF-C0805">
 <wire x1="-1" y1="0.5" x2="-1" y2="-0.5" width="0.127" layer="51"/>
@@ -2498,7 +2500,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/SSM2166.pdf</des
 <rectangle x1="-1.5151" y1="2" x2="-1.0249" y2="3.1001" layer="51"/>
 <rectangle x1="-2.7851" y1="2" x2="-2.2949" y2="3.1001" layer="51"/>
 <rectangle x1="-4.0551" y1="2" x2="-3.5649" y2="3.1001" layer="51"/>
-<circle x="-3.6" y="-0.8" radius="0.412309375" width="0.127" layer="21"/>
+<circle x="-5.05725" y="-2.825546875" radius="0.412309375" width="0" layer="21"/>
 </package>
 <package name="C0805">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -2530,7 +2532,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <wire x1="2.225" y1="2.07701875" x2="2.225" y2="-2.071603125" width="0.2032" layer="21"/>
 <wire x1="2.225" y1="-2.071603125" x2="-2.225" y2="-2.071603125" width="0.2032" layer="21"/>
 <wire x1="-2.225" y1="-2.071603125" x2="-2.225" y2="2.07701875" width="0.2032" layer="21"/>
-<circle x="-1.55" y="-1.3" radius="0.325" width="0.2032" layer="21"/>
+<circle x="-2.82" y="-3.205" radius="0.325" width="0" layer="21"/>
 <smd name="1" x="-1.95" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
 <smd name="2" x="-1.3" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
 <smd name="3" x="-0.65" y="-2.9" dx="0.4" dy="1.2" layer="1"/>
@@ -2624,8 +2626,8 @@ design rules under a new name.</description>
 <param name="mdCopperDimension" value="0.25mm"/>
 <param name="mdDrill" value="0.25mm"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="10mil"/>
-<param name="msDrill" value="24mil"/>
+<param name="msWidth" value="2.75mil"/>
+<param name="msDrill" value="6mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -2635,11 +2637,11 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="1mil"/>
+<param name="rlMinPadTop" value="6mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="2mil"/>
+<param name="rlMinPadBottom" value="6mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
 <param name="rlMinViaOuter" value="8mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
@@ -2769,9 +2771,10 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="KW2" package="MATE-N-LOK_643230-1" value="" x="3.9116" y="-14.1224" locked="yes" rot="MR180">
+<element name="U$1" library="KW2" package="MATE-N-LOK_643230-1" value="" x="3.9116" y="-14.1224" locked="yes" smashed="yes" rot="MR180">
 <attribute name="MFGN" value="TE Connectivity" x="3.9116" y="-14.1224" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFGP" value="643230-1" x="3.9116" y="-14.1224" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="11.9916" y="-10.4724" size="1.27" layer="22" rot="MR180"/>
 </element>
 <element name="U$2" library="GW-devices" package="ESWITCH-TL3301PF" value="" x="-35" y="0" locked="yes" smashed="yes" rot="R90">
 <attribute name="MFGN" value="E-Switch" x="-35" y="0" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2781,12 +2784,12 @@ design rules under a new name.</description>
 <element name="U$3" library="KW2" package="BARREL_CUI_PJ-002A" value="" x="31.75" y="16.3322" locked="yes" smashed="yes" rot="MR90">
 <attribute name="MFGN" value="CUI" x="31.75" y="16.3322" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFGP" value="PJ-002A" x="31.75" y="16.3322" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="26.37" y="17.8478" size="1.27" layer="22" rot="MR270"/>
+<attribute name="NAME" x="26.37" y="17.8478" size="1.016" layer="22" rot="MR270"/>
 </element>
 <element name="U$4" library="KW2" package="DF12_F" value="" x="-23.57" y="10" locked="yes" smashed="yes" rot="MR270">
 <attribute name="MFGN" value="Hirose" x="-23.57" y="10" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFGP" value="DF12(3.0)-40DP-0.5V(86)" x="-23.57" y="10" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="-28.55" y="11.94" size="1.27" layer="22" rot="MR270"/>
+<attribute name="NAME" x="-28.55" y="11.94" size="1.016" layer="22" rot="MR270"/>
 </element>
 <element name="U$6" library="texas" package="PW_R-PDSO-G14" value="" x="1.4026" y="3.5886" smashed="yes" rot="R270">
 <attribute name="MFGN" value="Texas Instruments" x="1.4026" y="3.5886" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2797,36 +2800,36 @@ design rules under a new name.</description>
 <element name="U$8" library="GW-devices" package="SO14" value="" x="19.71" y="-2.4" smashed="yes" rot="MR90">
 <attribute name="MFGN" value="WorldSemi" x="19.71" y="-2.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFGP" value="WS2801" x="19.71" y="-2.4" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="18.405" y="-7.58" size="1.27" layer="22" rot="MR180"/>
+<attribute name="NAME" x="18.905" y="-7.58" size="1.016" layer="22" rot="MR180"/>
 <attribute name="VALUE" x="19.075" y="-6.21" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="U$15" library="GW-devices" package="RF-C0805" value="24Ohm" x="12.32" y="1.14" smashed="yes" rot="MR0">
 <attribute name="MFGN" value="Vishay Dale" x="12.32" y="1.14" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFGP" value="CRCW080524R0FKEA" x="12.32" y="1.14" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="10.22" y="0.64" size="1.27" layer="22" rot="MR0"/>
+<attribute name="NAME" x="9.92" y="0.54" size="1.016" layer="22" rot="MR0"/>
 </element>
 <element name="U$16" library="GW-devices" package="RF-C0805" value="24Ohm" x="12.31" y="-1.4" smashed="yes" rot="MR0">
-<attribute name="NAME" x="9.91" y="-2" size="1.27" layer="22" rot="MR0"/>
+<attribute name="NAME" x="9.91" y="-1.8" size="1.016" layer="22" rot="MR0"/>
 <attribute name="MFGN" value="Vishay Dale" x="12.31" y="-1.4" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFGP" value="CRCW080524R0FKEA" x="12.31" y="-1.4" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U$17" library="GW-devices" package="RF-C0805" value="24Ohm" x="12.31" y="-3.64" smashed="yes" rot="MR0">
-<attribute name="NAME" x="9.81" y="-4.34" size="1.27" layer="22" rot="MR0"/>
+<attribute name="NAME" x="10.01" y="-4.14" size="1.016" layer="22" rot="MR0"/>
 <attribute name="MFGN" value="Vishay Dale" x="12.31" y="-3.64" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFGP" value="CRCW080524R0FKEA" x="12.31" y="-3.64" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U$19" library="KW2" package="2X10JTAG" value="" x="-0.635" y="-8.225" locked="yes" smashed="yes" rot="MR0">
 <attribute name="MFGN" value="CNC Tech" x="-0.635" y="-8.225" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFGP" value="3220-20-0100-00" x="-0.635" y="-8.225" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="0.975" y="-13.305" size="1.27" layer="22" rot="MR0"/>
+<attribute name="NAME" x="1.875" y="-12.805" size="1.016" layer="22" rot="MR0"/>
 </element>
 <element name="U$20" library="GW-devices" package="RF-C0805" value="68k" x="11" y="-0.6" smashed="yes" rot="R270">
 <attribute name="MFGN" value="Vishay Dale" x="11" y="-0.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="CRCW080568K0FKEA" x="11" y="-0.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="8.3" y="1.2" size="1.016" layer="21" rot="R270"/>
+<attribute name="NAME" x="8.3" y="0.8" size="1.016" layer="21" rot="R270"/>
 </element>
 <element name="U$21" library="GW-devices" package="RF-C0805" value="68k" x="10.1" y="3.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.5" y="5.8" size="1.016" layer="21" rot="R270"/>
+<attribute name="NAME" x="7.8" y="5.5" size="1.016" layer="21" rot="R270"/>
 <attribute name="MFGN" value="Vishay Dale" x="10.1" y="3.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFGP" value="CRCW080568K0FKEA" x="10.1" y="3.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2848,7 +2851,7 @@ design rules under a new name.</description>
 <element name="U$7" library="GW-devices" package="RF-C0805" value="10k" x="-21.8" y="-6.6" smashed="yes" rot="MR180">
 <attribute name="MFGN" value="Vishay Dale" x="-21.8" y="-6.6" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFGP" value="CRCW080510K0FKEA" x="-21.8" y="-6.6" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="-23.3" y="-8.4" size="1.27" layer="22" rot="MR180"/>
+<attribute name="NAME" x="-23" y="-8.3" size="1.016" layer="22" rot="MR180"/>
 </element>
 <element name="U$10" library="GW-devices" package="C0805" value="0.1uF" x="27" y="13.1" smashed="yes">
 <attribute name="MFGN" value="TDK" x="27" y="13.1" size="1.778" layer="27" display="off"/>
@@ -2868,7 +2871,7 @@ design rules under a new name.</description>
 <element name="IC1" library="KW2" package="SOT223" value="" x="-18" y="-12.3" smashed="yes" rot="R180">
 <attribute name="MFGN" value="OnSemi" x="-18" y="-12.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFGP" value="NCP1117ST33T3G" x="-18" y="-12.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-14.0932" y="-10.498" size="1.016" layer="21" rot="R270"/>
+<attribute name="NAME" x="-14.0932" y="-11.298" size="1.016" layer="21" rot="R270"/>
 <attribute name="VALUE" x="-22.8768" y="-8.998" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U$13" library="GW-devices" package="C0805" value="10uF" x="-16.7" y="-4" smashed="yes" rot="R180">
@@ -2881,7 +2884,7 @@ design rules under a new name.</description>
 <attribute name="MFGP" value="GRM219R61E106KA12D" x="-16.7" y="-6.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-18.83" y="-5.77" size="1.016" layer="21" rot="R180"/>
 </element>
-<element name="U$5" library="KW2" package="RGBLED" value="" x="35" y="0" smashed="yes">
+<element name="U$5" library="KW2" package="PLCC4_SMALL" value="" x="35" y="0" smashed="yes">
 <attribute name="MFGN" value="Cree, Inc." x="35" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MFGP" value="CLV1A-FKB-CK1N1G1BB7R4S3" x="35" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="32.85" y="2.14" size="1.016" layer="21"/>
@@ -3582,164 +3585,6 @@ design rules under a new name.</description>
 <wire x1="-28.0108" y1="-22.9108" x2="-30.8208" y2="-22.9108" width="0.3048" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="5,16,0044cdecd81db149"/>
-<approved hash="5,1,d0c6ab3375a9c12b"/>
-<approved hash="5,1,7cb9560b752121de"/>
-<approved hash="5,1,a9c6ab34d82f8da7"/>
-<approved hash="5,1,5fb9750153ab075e"/>
-<approved hash="5,1,b0c6ab3fbea55832"/>
-<approved hash="5,1,6eb9441f9835ccde"/>
-<approved hash="5,1,7a415fc316f959ce"/>
-<approved hash="5,1,97c6ab214d3b24a6"/>
-<approved hash="5,1,6fb94515a6bff25e"/>
-<approved hash="5,1,7b415ec92873674e"/>
-<approved hash="5,1,b4c6ab2823b2f729"/>
-<approved hash="5,1,7bbe5e306df522ce"/>
-<approved hash="5,1,6f4645ece339b7de"/>
-<approved hash="5,1,d5c6ab2d89c83c56"/>
-<approved hash="5,1,7fb95515b640e2a1"/>
-<approved hash="5,1,6b414ec9388c77b1"/>
-<approved hash="5,1,54c6ab2cdb4e71de"/>
-<approved hash="5,1,4a416fc327066831"/>
-<approved hash="5,1,5eb9741fa9cafd21"/>
-<approved hash="5,1,b7c6ab2144c4a54d"/>
-<approved hash="5,1,6fb94501635437a1"/>
-<approved hash="5,1,98c6ab3fbe5adad9"/>
-<approved hash="5,1,6cb9460b66de3221"/>
-<approved hash="5,1,78415dd7e812a731"/>
-<approved hash="5,1,b1c6ab34dbd10e54"/>
-<approved hash="5,16,f6b851333fa9ce3d"/>
-<approved hash="5,16,155acbbd7e5ef88e"/>
-<approved hash="5,16,33f54f7749883184"/>
-<approved hash="5,16,864de8b791e3d6e6"/>
-<approved hash="5,16,53b3d255f6596f69"/>
-<approved hash="5,16,152695af238cfb0a"/>
-<approved hash="5,16,f6a4376159bfce4d"/>
-<approved hash="5,16,f6b80a90640cce73"/>
-<approved hash="5,16,15249758217dfb0e"/>
-<approved hash="5,16,48109865cd987c9b"/>
-<approved hash="5,16,6adaea9eeef7961a"/>
-<approved hash="5,16,6b478a324f873cfe"/>
-<approved hash="5,16,68d08a2c4fbf3f4f"/>
-<approved hash="5,16,75768ab44fef2221"/>
-<approved hash="5,16,7d1b8bb24e172ab2"/>
-<approved hash="5,16,7f8a8a4c4fef2825"/>
-<approved hash="5,16,6e218a0e4fbf399c"/>
-<approved hash="5,16,44288a0c4faf1387"/>
-<approved hash="5,16,46df8a224f871176"/>
-<approved hash="5,16,481566a437c77c9b"/>
-<approved hash="5,16,604aedfa5a083347"/>
-<approved hash="5,16,72948ab44f2f2503"/>
-<approved hash="5,16,79b98a2e4f8f2e14"/>
-<approved hash="5,16,77e58db6480f2050"/>
-<approved hash="5,16,1fcf8a424fe74866"/>
-<approved hash="5,16,19fe89a44fff4da9"/>
-<approved hash="5,16,646d8a864f3f33d8"/>
-<approved hash="5,16,f0ca5a0e8b00c53b"/>
-<approved hash="5,16,671c8ba44e3f308b"/>
-<approved hash="5,16,63b28a2c4fff346d"/>
-<approved hash="5,16,61838a424ff7363a"/>
-<approved hash="5,16,eff015b366172aa5"/>
-<approved hash="5,16,ed61144d67ef2832"/>
-<approved hash="5,16,8d24144367e74871"/>
-<approved hash="5,16,d0d9736dd7dc1887"/>
-<approved hash="5,16,e07f14b5672f2514"/>
-<approved hash="5,16,4baef9bebf2c6f13"/>
-<approved hash="5,16,d434142367871161"/>
-<approved hash="5,16,fcca140f67bf398b"/>
-<approved hash="5,16,f159142d67ff347a"/>
-<approved hash="5,16,4b12e8e4ae8e6f9f"/>
-<approved hash="5,16,8b1517a567ff4dbe"/>
-<approved hash="5,16,d0c43a1b09164735"/>
-<approved hash="5,16,d35f751ad1891b03"/>
-<approved hash="5,16,fa3b142d67bf3f58"/>
-<approved hash="5,16,f9ac143367873ce9"/>
-<approved hash="5,16,d6c3140d67af1390"/>
-<approved hash="5,16,e50e13b7600f2047"/>
-<approved hash="5,16,4c8efccdba99681d"/>
-<approved hash="5,16,e79d14b567ef2236"/>
-<approved hash="5,16,d0af1992bd011803"/>
-<approved hash="5,16,eb52142f678f2e03"/>
-<approved hash="5,16,d7491b1fbfb21f03"/>
-<approved hash="5,16,f6861487673f33cf"/>
-<approved hash="5,16,f5f715a5663f309c"/>
-<approved hash="5,16,d15b0bf4af6f1907"/>
-<approved hash="5,16,4b9eef55a9016f2d"/>
-<approved hash="5,16,48929128d7726c0f"/>
-<approved hash="5,16,73c0efbaf66b7bef"/>
-<approved hash="5,16,f0573b499f340d0f"/>
-<approved hash="5,16,f368144367f7362d"/>
-<approved hash="5,16,d0590da1a9101807"/>
-<approved hash="5,16,d16a3196bbbb4ab9"/>
-<approved hash="5,16,7992cc08bf5a5d1d"/>
-<approved hash="5,16,4b92eabbacfb6f1d"/>
-<approved hash="5,16,01e27948751cc93a"/>
-<approved hash="5,16,f90a315f210173e6"/>
-<approved hash="5,16,27ed78d9131618dd"/>
-<approved hash="5,16,7c3894201fcae8c9"/>
-<approved hash="5,16,443c81e1fab7aee1"/>
-<approved hash="5,16,f576591841b64c95"/>
-<approved hash="5,16,3c5ef7a87506ce16"/>
-<approved hash="5,16,3c471c2a7e04ed16"/>
-<approved hash="5,16,562f1b2f051f8e09"/>
-<approved hash="5,16,5e49e86d953780da"/>
-<approved hash="5,16,347790c6ce91a21a"/>
-<approved hash="5,16,dc069458e72628e5"/>
-<approved hash="5,16,93cb96d4323b25c1"/>
-<approved hash="5,16,712e2cc151199556"/>
-<approved hash="5,16,7774061849688010"/>
-<approved hash="5,16,53487bc782a2c785"/>
-<approved hash="5,16,1b41cb98f04681d2"/>
-<approved hash="5,16,3d78573b4944239e"/>
-<approved hash="5,16,5e4202aa51f4be63"/>
-<approved hash="5,16,d465d1dde5caf297"/>
-<approved hash="5,16,d2cdf3b4180cf3f7"/>
-<approved hash="5,16,57639623c2437481"/>
-<approved hash="5,16,57744b3ca4438c81"/>
-<approved hash="5,16,30430d303aa17fc7"/>
-<approved hash="5,16,184c4bac3814ad99"/>
-<approved hash="5,16,030c66dc9b67a237"/>
-<approved hash="5,16,4c8f6207656f849d"/>
-<approved hash="5,16,cdf48083bbe95419"/>
-<approved hash="5,16,92c21242a453bc5c"/>
-<approved hash="5,16,30c1ebc6ea187de9"/>
-<approved hash="5,16,746254def2a1e91d"/>
-<approved hash="5,16,afcc16b7324785d5"/>
-<approved hash="5,16,65c3b6a0c450cbcd"/>
-<approved hash="5,16,55796f5422f30b18"/>
-<approved hash="5,16,21486ee1ac489ed4"/>
-<approved hash="5,16,79494862793b3ecd"/>
-<approved hash="5,16,60c76ef3a5ecff27"/>
-<approved hash="5,16,c74c6bd5cd6d7af1"/>
-<approved hash="5,16,a1c508469bbbe6c7"/>
-<approved hash="5,16,80c1ebd54a0a5de1"/>
-<approved hash="5,16,d0c6ab3375a9c12b"/>
-<approved hash="5,16,7cb9560b752121de"/>
-<approved hash="5,16,a9c6ab34d82f8da7"/>
-<approved hash="5,16,5fb9750153ab075e"/>
-<approved hash="5,16,b0c6ab3fbea55832"/>
-<approved hash="5,16,7a415fc316f959ce"/>
-<approved hash="5,16,6eb9441f9835ccde"/>
-<approved hash="5,16,97c6ab214d3b24a6"/>
-<approved hash="5,16,7b415ec92873674e"/>
-<approved hash="5,16,6fb94515a6bff25e"/>
-<approved hash="5,16,b4c6ab2823b2f729"/>
-<approved hash="5,16,7bbe5e306df522ce"/>
-<approved hash="5,16,6f4645ece339b7de"/>
-<approved hash="5,16,d5c6ab2d89c83c56"/>
-<approved hash="5,16,6b414ec9388c77b1"/>
-<approved hash="5,16,7fb95515b640e2a1"/>
-<approved hash="5,16,54c6ab2cdb4e71de"/>
-<approved hash="5,16,5eb9741fa9cafd21"/>
-<approved hash="5,16,4a416fc327066831"/>
-<approved hash="5,16,b7c6ab2144c4a54d"/>
-<approved hash="5,16,6fb94501635437a1"/>
-<approved hash="5,16,98c6ab3fbe5adad9"/>
-<approved hash="5,16,6cb9460b66de3221"/>
-<approved hash="5,16,78415dd7e812a731"/>
-<approved hash="5,16,b1c6ab34dbd10e54"/>
-</errors>
 </board>
 </drawing>
 </eagle>

@@ -1,10 +1,12 @@
 LEDCON.PCB.v1.0
+2/20/15
 
 - Material: FR4
 - Thickness: 0.062"
+- Copper weight: 1 oz
 - All vias tented (included in soldermask layers)
 - Solder mask: BLACK
-- Silk screen: WHITE
+- Silk screen: WHITE (both sides)
 - Hole diameters applicable after plating
 - UL796 Flammability Rating 94V-0. Fabricator's UL Logo shall be placed on bottom side of board
 - Date of manufacture and lot code shall be placed on bottom side of board
