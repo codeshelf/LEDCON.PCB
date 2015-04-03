@@ -1,4 +1,4 @@
-AISCON.PCB
+LEDCON.PCB
 ==========
 
-Aisle Controller PCB design files (no production files)
+LED Controller PCB design files (no production files)
