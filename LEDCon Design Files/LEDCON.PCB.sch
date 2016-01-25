@@ -2277,12 +2277,18 @@ Production Part - 8199
 </class>
 </classes>
 <parts>
-<part name="J1" library="KW2" deviceset="MATE-N-LOK_643230-1" device="" value="MATE-N-LOK_643230-1"/>
+<part name="J1" library="KW2" deviceset="MATE-N-LOK_643230-1" device="" value="MATE-N-LOK_643230-1">
+<attribute name="MFGN" value="TE Connectivity"/>
+<attribute name="MFGP" value="643230-1"/>
+</part>
 <part name="SW1" library="GW-devices" deviceset="SWITCH-TACTILE" device="" value="SWITCH-TACTILE">
 <attribute name="MFGN" value="E-Switch"/>
 <attribute name="MFGP" value="TL3301PF160QG"/>
 </part>
-<part name="P1" library="KW2" deviceset="BARREL_CUI_PJ-002A" device="" value="BARREL_CUI_PJ-002A"/>
+<part name="P1" library="KW2" deviceset="BARREL_CUI_PJ-002A" device="" value="BARREL_CUI_PJ-002A">
+<attribute name="CUI" value="CUI"/>
+<attribute name="MFGP" value="PJ-002A"/>
+</part>
 <part name="KW2" library="KW2" deviceset="DF12_F" device="" value="">
 <attribute name="MFGN" value="Hirose"/>
 <attribute name="MFGP" value="DF12(3.0)-40DP-0.5V(86)"/>
@@ -2293,7 +2299,10 @@ Production Part - 8199
 <part name="SUPPLY1" library="supply2" deviceset="V+" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="V+" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="U1" library="GW-devices" deviceset="WS2801" device="" value="WS2801"/>
+<part name="U1" library="GW-devices" deviceset="WS2801" device="" value="WS2801">
+<attribute name="MFGN" value="World Semi"/>
+<attribute name="MFGP" value="WS2801"/>
+</part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="GW-devices" deviceset="RF-R" device="0805" value="24Ohm">
 <attribute name="MFGN" value="Vishay Dale"/>
@@ -2307,10 +2316,16 @@ Production Part - 8199
 <attribute name="MFGN" value="Vishay Dale"/>
 <attribute name="MFGP" value="CRCW080524R0FKEA"/>
 </part>
-<part name="JTAG" library="KW2" deviceset="2X10JTAG" device="SMD" value="2X10JTAGSMD"/>
+<part name="JTAG" library="KW2" deviceset="2X10JTAG" device="SMD" value="2X10JTAGSMD">
+<attribute name="MFGN" value="Sullins"/>
+<attribute name="MFGP" value="GRPB052VWQP-RC"/>
+</part>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="SW2" library="KW2" deviceset="RA_BUTTON" device="" value="RA_BUTTON"/>
+<part name="SW2" library="KW2" deviceset="RA_BUTTON" device="" value="RA_BUTTON">
+<attribute name="MFGN" value="TE Connectivity"/>
+<attribute name="MFGP" value="2-1825027-0"/>
+</part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="R4" library="GW-devices" deviceset="RF-R" device="0805" value="10k">
 <attribute name="MFGN" value="Vishay Dale"/>
@@ -2325,7 +2340,10 @@ Production Part - 8199
 <attribute name="MFGN" value="Murata"/>
 <attribute name="MFGP" value="GRM219R61E106KA12D"/>
 </part>
-<part name="LED1" library="KW2" deviceset="RGLBED" device="" value="RGLBED"/>
+<part name="LED1" library="KW2" deviceset="RGLBED" device="" value="RGLBED">
+<attribute name="MFGN" value="Cree"/>
+<attribute name="MFGP" value="CLV1A-FKB-CK1N1G1BB7R4S3"/>
+</part>
 <part name="U$14" library="adafruit" deviceset="FIDUCIAL" device="" value="">
 <attribute name="NOTES" value="DNP"/>
 </part>
@@ -2356,10 +2374,16 @@ Production Part - 8199
 <attribute name="MFGN" value="Murata"/>
 <attribute name="MFGP" value="GRJ21BR71H105KE01L"/>
 </part>
-<part name="IC1" library="SparkFun" deviceset="V_REG_78XX" device=""/>
+<part name="IC1" library="SparkFun" deviceset="V_REG_78XX" device="">
+<attribute name="MFGN" value="Traco Power"/>
+<attribute name="MFGP" value="TSR 1-2433"/>
+</part>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="SW3" library="GW-devices" deviceset="SMD050F" device=""/>
+<part name="SW3" library="GW-devices" deviceset="SMD050F" device="">
+<attribute name="MFGN" value="TE Connectivity"/>
+<attribute name="MFGP" value="MICROSMD050F-2"/>
+</part>
 <part name="GND3" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND4" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND5" library="supply1" deviceset="GNDA" device=""/>
@@ -2368,8 +2392,14 @@ Production Part - 8199
 <part name="GND12" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND13" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="D1" library="SparkFun" deviceset="DIODE" device="SMA"/>
-<part name="D2" library="SparkFun" deviceset="DIODE-ZENER" device="SMB"/>
+<part name="D1" library="SparkFun" deviceset="DIODE" device="SMA">
+<attribute name="MFGN" value="Diodes Inc"/>
+<attribute name="MFGP" value="B130-13-F"/>
+</part>
+<part name="D2" library="SparkFun" deviceset="DIODE-ZENER" device="SMB">
+<attribute name="MFGN" value="On Semi"/>
+<attribute name="MFGP" value="1SMB5913BT3G"/>
+</part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="AWESOME" library="KW2" deviceset="CJS" device=""/>
 <part name="U2" library="GW-devices" deviceset="OPTOCOUPLER" device="">
@@ -2377,7 +2407,10 @@ Production Part - 8199
 <attribute name="MFGP" value="TLP2355"/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="U3" library="SparkFun" deviceset="V_REG_MIC2920" device=""/>
+<part name="U3" library="SparkFun" deviceset="V_REG_MIC2920" device="">
+<attribute name="MFGN" value="Micrel"/>
+<attribute name="MFGP" value="MIC2920A-5.0WS-TR"/>
+</part>
 <part name="GND18" library="supply1" deviceset="GNDA" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="V+" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
@@ -2391,12 +2424,18 @@ Production Part - 8199
 <text x="160.02" y="-12.7" size="1.778" layer="97">High Voltage Plane</text>
 </plain>
 <instances>
-<instance part="J1" gate="G$1" x="147.32" y="7.62" rot="R90"/>
+<instance part="J1" gate="G$1" x="147.32" y="7.62" rot="R90">
+<attribute name="MFGN" x="147.32" y="7.62" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFGP" x="147.32" y="7.62" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="SW1" gate="G$1" x="-53.34" y="-35.56">
 <attribute name="MFGN" x="-53.34" y="-35.56" size="1.778" layer="96" display="off"/>
 <attribute name="MFGP" x="-53.34" y="-35.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="P1" gate="G$1" x="147.32" y="48.26" rot="R180"/>
+<instance part="P1" gate="G$1" x="147.32" y="48.26" rot="R180">
+<attribute name="CUI" x="147.32" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFGP" x="147.32" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="KW2" gate="G$1" x="10.16" y="-17.78" smashed="yes">
 <attribute name="MFGN" x="10.16" y="-17.78" size="1.778" layer="96" display="off"/>
 <attribute name="MFGP" x="10.16" y="-17.78" size="1.778" layer="96" display="off"/>
@@ -2407,7 +2446,10 @@ Production Part - 8199
 <instance part="SUPPLY1" gate="1" x="116.84" y="53.34"/>
 <instance part="SUPPLY2" gate="1" x="172.72" y="10.16"/>
 <instance part="GND6" gate="1" x="-63.5" y="-40.64"/>
-<instance part="U1" gate="G$1" x="-55.88" y="2.54" rot="R180"/>
+<instance part="U1" gate="G$1" x="-55.88" y="2.54" rot="R180">
+<attribute name="MFGN" x="-55.88" y="2.54" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFGP" x="-55.88" y="2.54" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="GND7" gate="1" x="-15.24" y="22.86"/>
 <instance part="R1" gate="&gt;NAME" x="-33.02" y="12.7">
 <attribute name="MFGN" x="-33.02" y="12.7" size="1.778" layer="96" display="off"/>
@@ -2421,10 +2463,16 @@ Production Part - 8199
 <attribute name="MFGN" x="-33.02" y="2.54" size="1.778" layer="96" display="off"/>
 <attribute name="MFGP" x="-33.02" y="2.54" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="JTAG" gate="G$1" x="66.04" y="-60.96" rot="MR270"/>
+<instance part="JTAG" gate="G$1" x="66.04" y="-60.96" rot="MR270">
+<attribute name="MFGN" x="66.04" y="-60.96" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MFGP" x="66.04" y="-60.96" size="1.778" layer="96" rot="MR270" display="off"/>
+</instance>
 <instance part="+3V7" gate="G$1" x="81.28" y="-83.82" rot="R270"/>
 <instance part="GND8" gate="1" x="48.26" y="-83.82" rot="R270"/>
-<instance part="SW2" gate="G$1" x="22.86" y="-68.58"/>
+<instance part="SW2" gate="G$1" x="22.86" y="-68.58">
+<attribute name="MFGN" x="22.86" y="-68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="22.86" y="-68.58" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND11" gate="1" x="12.7" y="-73.66"/>
 <instance part="R4" gate="&gt;NAME" x="-25.4" y="-27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="-26.8986" y="-29.21" size="1.778" layer="95" rot="R90"/>
@@ -2441,7 +2489,10 @@ Production Part - 8199
 <attribute name="MFGN" x="71.12" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MFGP" x="71.12" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="LED1" gate="G$1" x="-91.44" y="40.64" rot="R90"/>
+<instance part="LED1" gate="G$1" x="-91.44" y="40.64" rot="R90">
+<attribute name="MFGN" x="-91.44" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFGP" x="-91.44" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="U$14" gate="G$1" x="-91.44" y="-78.74">
 <attribute name="NOTES" x="-91.44" y="-78.74" size="1.778" layer="96" display="off"/>
 </instance>
@@ -2472,10 +2523,16 @@ Production Part - 8199
 <attribute name="MFGN" x="124.46" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MFGP" x="124.46" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="IC1" gate="G$1" x="83.82" y="45.72" rot="MR0"/>
+<instance part="IC1" gate="G$1" x="83.82" y="45.72" rot="MR0">
+<attribute name="MFGN" x="83.82" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFGP" x="83.82" y="45.72" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="+3V2" gate="G$1" x="-91.44" y="55.88"/>
 <instance part="+3V3" gate="G$1" x="-78.74" y="-5.08"/>
-<instance part="SW3" gate="G$1" x="53.34" y="45.72" rot="R180"/>
+<instance part="SW3" gate="G$1" x="53.34" y="45.72" rot="R180">
+<attribute name="MFGN" x="53.34" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFGP" x="53.34" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="GND3" gate="1" x="71.12" y="27.94"/>
 <instance part="GND4" gate="1" x="83.82" y="27.94"/>
 <instance part="GND5" gate="1" x="101.6" y="27.94"/>
@@ -2484,9 +2541,14 @@ Production Part - 8199
 <instance part="GND12" gate="1" x="129.54" y="-2.54"/>
 <instance part="GND13" gate="1" x="60.96" y="5.08"/>
 <instance part="GND14" gate="1" x="45.72" y="5.08"/>
-<instance part="D1" gate="G$1" x="53.34" y="17.78"/>
+<instance part="D1" gate="G$1" x="53.34" y="17.78">
+<attribute name="MFGN" x="53.34" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="53.34" y="17.78" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="D2" gate="G$1" x="30.48" y="38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.9974" y="40.64" size="1.778" layer="95" rot="R90"/>
+<attribute name="MFGN" x="30.48" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFGP" x="30.48" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND15" gate="1" x="30.48" y="27.94"/>
 <instance part="AWESOME" gate="G$1" x="-45.72" y="-55.88"/>
@@ -2495,7 +2557,10 @@ Production Part - 8199
 <attribute name="MFGP" x="121.92" y="-35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="104.14" y="-45.72"/>
-<instance part="U3" gate="G$1" x="187.96" y="30.48"/>
+<instance part="U3" gate="G$1" x="187.96" y="30.48">
+<attribute name="MFGN" x="187.96" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="187.96" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND18" gate="1" x="187.96" y="15.24"/>
 <instance part="SUPPLY3" gate="1" x="175.26" y="40.64"/>
 <instance part="P+1" gate="1" x="198.12" y="40.64"/>

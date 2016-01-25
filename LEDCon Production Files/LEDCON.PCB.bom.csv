@@ -1,0 +1,33 @@
+Partlist exported from /Users/jeffw/Documents/Codeshelf/Engineering/CAD/LEDCON.PCB/LEDCon Design Files/LEDCON.PCB.sch at 1/18/16 16:24
+
+Part	Value	Device	Package	Description	MfgName	MfgPartNum	MfgPrice	Verified	Notes	
+AWESOME	CJS	CJS	CJS		Copal Electronics Inc	CJS-1200TA				
+C1	10uF	RF-C0805	C0805	RF capacitor pads for FSL reference design	Murata	GRM219R61E106KA12D				
+C2	10uF	RF-C1210	C1210K	RF capacitor pads for FSL reference design	Murata	GRM32ER71H106KA12L				
+C3	10uF	RF-C1210	C1210K	RF capacitor pads for FSL reference design	Murata	GRM32ER71H106KA12L				
+C4	1uF	RF-C0805	C0805	RF capacitor pads for FSL reference design	Murata	GRJ21BR71H105KE01L				
+C5	0.1uF	RF-C0805	C0805	RF capacitor pads for FSL reference design	Murata	GRM21BR71H104MA01L				
+D1		DIODESMA	SMA-DIODE	Diode	Diodes Inc	B130-13-F				
+D2	DIODE-ZENERSMB	DIODE-ZENERSMB	SMB-DIODE	Zener Diode	On Semi	1SMB5913BT3G				
+IC1		V_REG_78XX	TO220-TRACO	Voltage Regulator	Traco Power	TSR 1-2433				
+J1	MATE-N-LOK_643230-1	MATE-N-LOK_643230-1	MATE-N-LOK_643230-1		TE Connectivity	643230-1				
+JTAG	2X10JTAGSMD	2X10JTAGSMD	2X10JTAG-SMD		Sullins	GRPB052VWQP-RC				
+KW2		DF12_F	DF12_F		Hirose	DF12(3.0)-40DP-0.5V(86)				
+LED1	RGLBED	RGLBED	RGBLED		Cree	CLV1A-FKB-CK1N1G1BB7R4S3				
+P1	BARREL_CUI_PJ-002A	BARREL_CUI_PJ-002A	BARREL_CUI_PJ-002A			PJ-002A				
+R1	24Ohm	RF-R0805	RF-C0805	RF resistor pads for FSL reference design	Vishay Dale	CRCW080524R0FKEA				
+R2	24Ohm	RF-R0805	RF-C0805	RF resistor pads for FSL reference design	Vishay Dale	CRCW080524R0FKEA				
+R3	24Ohm	RF-R0805	RF-C0805	RF resistor pads for FSL reference design	Vishay Dale	CRCW080524R0FKEA				
+R4	10k	RF-R0805	RF-C0805	RF resistor pads for FSL reference design	Vishay Dale	CRCW080510K0FKEA				
+SW1	SWITCH-TACTILE	SWITCH-TACTILE	ESWITCH-TL3301PF		E-Switch	TL3301PF160QG				
+SW2	RA_BUTTON	RA_BUTTON	RA_BUTTON		TE Connectivity	2-1825027-0				
+SW3	SMD050F	SMD050F	C1210	Tyco current limit switch	TE Connectivity	MICROSMD050F-2				
+U$14		FIDUCIAL	FIDUCIAL_1MM	For use by pick and place machines to calibrate the vision/machine, 1mm					DNP	
+U$18		FIDUCIAL	FIDUCIAL_1MM	For use by pick and place machines to calibrate the vision/machine, 1mm					DNP	
+U$25		FIDUCIAL	FIDUCIAL_1MM	For use by pick and place machines to calibrate the vision/machine, 1mm					DNP	
+U$26		FIDUCIAL	FIDUCIAL_1MM	For use by pick and place machines to calibrate the vision/machine, 1mm					DNP	
+U$27		FIDUCIAL	FIDUCIAL_1MM	For use by pick and place machines to calibrate the vision/machine, 1mm					DNP	
+U$28		FIDUCIAL	FIDUCIAL_1MM	For use by pick and place machines to calibrate the vision/machine, 1mm					DNP	
+U1	WS2801	WS2801	SO14		World Semi	WS2801				
+U2	OPTOCOUPLER	OPTOCOUPLER	S06-5		Toshiba	TLP2355				
+U3	V_REG_MIC2920	V_REG_MIC2920	SOT223	MIC2920A (http://www.micrel.com/_PDF/mic2920.pdf) - 400mA output LDO Regulator	Micrel	MIC2920A-5.0WS-TR				
